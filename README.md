@@ -8,32 +8,32 @@ This SQL project demonstrates the use of **advanced SQL queries** and **stored p
 
 ## 📌 Tasks & Descriptions
 
-### ✅ Task 13: Identify Members with Overdue Books
+### ✅ Task 1: Identify Members with Overdue Books
 - Identifies members who have not returned books within 30 days.
 - Returns: `member_id`, `member_name`, `book_title`, `issued_date`, and `days_overdue`.
 
-### ✅ Task 14: Update Book Status on Return
+### ✅ Task 2: Update Book Status on Return
 - A stored procedure `add_return_records`:
   - Inserts return records.
   - Retrieves book details.
   - (Optional enhancement) Updates book status to 'yes'.
 
-### ✅ Task 15: Branch Performance Report
+### ✅ Task 3: Branch Performance Report
 - Creates a report using `CTAS`:
   - Total books issued
   - Total books returned
   - Total revenue per branch
   - Return rate percentage
 
-### ✅ Task 16: Create Active Members Table
+### ✅ Task 4: Create Active Members Table
 - Creates `active_members` table using `CTAS`.
 - Includes members who borrowed books in the last 2 months.
 
-### ✅ Task 17: Top 3 Employees by Issued Books
+### ✅ Task 5: Top 3 Employees by Issued Books
 - Finds top 3 employees who issued the most books.
 - Returns: `employee_name`, `total_issued`, and `branch_id`.
 
-### ✅ Task 19: Issue Book Procedure
+### ✅ Task 6: Issue Book Procedure
 - Stored procedure `issue_book`:
   - Checks if book is available.
   - Issues the book and updates status to 'no'.
